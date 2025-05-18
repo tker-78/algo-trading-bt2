@@ -1,7 +1,10 @@
 import talib
 import numpy as np
 
-class SMA():
+class Indicator():
+    pass
+
+class SMA(Indicator):
     def __init__(self, in_real: np.ndarray, period: int = 20):
         self.in_real = in_real
         self.period = period
