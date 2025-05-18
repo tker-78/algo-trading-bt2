@@ -1,7 +1,7 @@
 import pytest
 import os
 from pathlib import Path
-from loaddata import load_csv
+from .loaddata import load_csv
 
 def test_valid_csv(tmp_path):
 

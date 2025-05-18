@@ -1,4 +1,4 @@
-from indicator import SMA
+from .indicator import SMA
 import numpy as np
 
 import pytest
